@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+footer{
+  font-family: cursive;
+  font-size: 1rem;
+  color: white;
+}
+a{
+  font-size: 4rem;
+}
+#level-title {font-family: 'Arvo', serif;
+  font-size: 3rem;
+  margin: 2% auto;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: 3% auto 5% auto ;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 12.5rem;
+  width: 12.5rem;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #29303A;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.myButton {
+  display: inline-block;
+  width: 20%;
+  margin:auto 3%;
+	box-shadow:inset 0 -3px 7px 0 #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:15px 48px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #263666;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.how_to_play_btn {
+  display: inline-block;
+  width: 20%;
+  margin:auto;
+	box-shadow:inset 0px 1px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:15px 48px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+.how_to_play_btn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.content {
+  font-size: 1.2rem;
+  color: #216353;
+  background-color: #A8E7A4;
+  margin: auto;
+  padding: 2%;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  width: 50%;
+  display: none;
+}
