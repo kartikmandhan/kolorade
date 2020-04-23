@@ -1,4 +1,14 @@
 $(document).ready(function(){
+  function clickCounter() {
+    if (typeof(Storage) !== "undefined") {
+      if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+      } else {
+        localStorage.clickcount = 1;
+      }
+      $(".clicks-counter").text("You had played this game "+localStorage.clickcount+" times, till date.");
+    }
+  }
 var buttonColors = ["red", "blue", "green", "yellow"];
 
 var gamePattern = []; //storres actual sequence of the game
@@ -17,6 +27,7 @@ var score_level;  //stores number o level user completes successfully
 //});
 $(".myButton").click(function(){
   if (!started) {
+    clickCounter();
     nextSequence();
     started = true;
     //$("body").css("background-color","#011F3F");

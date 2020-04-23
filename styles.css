@@ -15,7 +15,12 @@ a{
   margin: 2% auto;
   color: #FEF2BF;
 }
-
+.clicks-counter{
+  font-family: 'Arvo', serif;
+    font-size: 1.5rem;
+    margin: 2% auto;
+    color: #FEF2BF;
+}
 .container {
   display: block;
   width: 50%;
